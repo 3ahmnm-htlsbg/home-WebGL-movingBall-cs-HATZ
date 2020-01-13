@@ -6,24 +6,16 @@ using UnityEngine.UI;
 public class movingBall : MonoBehaviour
 {
 
-    public Text Title_txt;
-    public Button MoveBall_Btn;
-    public Object Ball;
+    public GameObject ball;
+    [SerializeField] private GameObject[] ballPositions;
 
-    // Start is called before the first frame update
-    void Start()
+    private int GenerateNumber()
     {
-        
+        return Random.Range(0,4);
     }
 
-    // Update is called once per frame
-    void Update()
+  public void TranslateBall()
     {
-        
-    }
-
-    public void TranslateBall()
-    {
-
+       ball.transform.position = ballPositions[GenerateNumber()].transform.position;
     }
 }
