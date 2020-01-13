@@ -1,28 +1,34 @@
 # Unity2019114f1-2D-Template
 
 ### Project description: 
-Introduction/Project summary 
+The goal of this project is to create a canvas, that with the push of a button moves a ball to one of 4 pre-assigned corners of said canvas. 
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+- MacOS Catalina 10.15.1
+- Unity 2019.1.14f1
+- Visual Studio Code 1.40.2
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+WebGL reference resolution 960x600
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+TODO
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+- Installation of WebGL necessary.
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+PNG of Ball: Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-colorful-ball-play-summer-game-sports-26
 
 ### Project state: 
 incl. progress in percent
+70 %
 
 ### Limitations: 
+None
 
-### Lessons Learned: 
+### Lessons Learned:
+- Practiced how to create a working GUI
+- Practiced Coding and writing C# Scripts 
 
-Copyright by you :)
+Copyright by you HATZ
