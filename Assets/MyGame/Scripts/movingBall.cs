@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class movingBall : MonoBehaviour
+public class MovingBall : MonoBehaviour
 {
 
     public GameObject ball;
